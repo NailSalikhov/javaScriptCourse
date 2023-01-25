@@ -25,11 +25,6 @@
 // console.log(result);
 // Код Нурика с таким же результатом
 
-
-
-
-
-
 //     *
 //    ***
 //   *****
@@ -52,10 +47,7 @@
 // }
 // console.log(result);
 
-
-
-
-//          
+//
 //*        *
 //**      **
 //***    ***
@@ -77,9 +69,6 @@
 // }
 // console.log(result);
 
-
-
-
 // const data = [5, 10, "Shopping", 20, "Homework"];
 // let result = [];
 
@@ -91,10 +80,6 @@
 
 // console.log(result);
 // return result;
-
-
-
-
 
 // const data = [5, 10, 'Shopping', 20, 'Homework'];
 // for (let i = 0; i < data.length; i++){
@@ -108,11 +93,6 @@
 //    // Не трогаем
 //    return data;
 
-
-
-
-
-
 // let i = 0;
 // const arr = [3, 5, 8, 16, 20, 23, 50];
 // const result = [];
@@ -121,11 +101,6 @@
 //     }
 //     console.log(result);
 //     return result;
-
-
-
-
-
 
 // let n = 18; //создание программы которая выводит все простые числа в заданном диапозаное
 // nextPrime:
@@ -138,10 +113,6 @@
 //   console.log( i ); // простое число
 // }
 
-
-
-
-
 // for (let i = 2; i <= 16; i++) { // только нечетные числа
 //   if (i % 2 === 0) {
 //       continue;
@@ -150,10 +121,6 @@
 //   }
 // }
 
-
-
-
-
 // const arrayOfNumbers = []; // в массиве будут числа от 5 до 10
 // for (let i = 5; i < 11; i++) {
 //   arrayOfNumbers[i - 5] = i;
@@ -161,10 +128,6 @@
 // console.log(arrayOfNumbers);
 // // Не трогаем
 // return arrayOfNumbers;
-
-
-
-
 
 // let i = 2; // только нечетные числа через while
 // while (i <= 16) {
@@ -177,15 +140,12 @@
 //   i++;
 // }
 
-
-
 // let i = 1;
 // for(i = 1; i < 11; i++){
 //   if (i % 2 == 0){
 //   console.log(i);
 //   }
 // }
-
 
 // let num;
 // do {
@@ -214,25 +174,22 @@
 //   console.log(i);
 // }
 
-const numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", "");
-const personalMovieDB = {
-  count: numberOfFilms,
-  movies: {},
-  actors: {},
-  genres: [],
-  privat: false,
-};
-const a = prompt("Один из последних просмотренных фильмов?", ""),
-  b = prompt("На сколько оцените его?", ""),
-  c = prompt("Один из последних просмотренных фильмов?", ""),
-  d = prompt("На сколько оцените его?", "");
+// const numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", "");
+// const personalMovieDB = {
+//   count: numberOfFilms,
+//   movies: {},
+//   actors: {},
+//   genres: [],
+//   privat: false,
+// };
+// const a = prompt("Один из последних просмотренных фильмов?", ""),
+//   b = prompt("На сколько оцените его?", ""),
+//   c = prompt("Один из последних просмотренных фильмов?", ""),
+//   d = prompt("На сколько оцените его?", "");
 
-personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
-console.log(personalMovieDB);
-
-
-
+// personalMovieDB.movies[a] = b;
+// personalMovieDB.movies[c] = d;
+// console.log(personalMovieDB);
 
 // if (4 == 9) {
 //   console.log("Ok!");
